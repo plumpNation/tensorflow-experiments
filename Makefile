@@ -14,3 +14,5 @@ freeze-deps:
 1-helloworld:
 	@python src/1-helloworld.py
 
+2-load-dataset:
+	@python src/2-load-dataset.py
