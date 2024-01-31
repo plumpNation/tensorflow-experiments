@@ -1,2 +1,7 @@
 # tesseract-experiments
-Learning me some tesseract
+
+## Up and running
+
+```
+make venv-create install
+```
