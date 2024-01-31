@@ -12,4 +12,5 @@ freeze-deps:
 	@pip freeze > requirements.txt
 
 1-helloworld:
-	@python src/helloworld.py
+	@python src/1-helloworld.py
+
