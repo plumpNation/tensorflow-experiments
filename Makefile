@@ -16,3 +16,7 @@ freeze-deps:
 
 2-load-dataset:
 	@python src/2-load-dataset.py
+
+
+3-build-model:
+	@python src/3-build-model.py
