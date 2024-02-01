@@ -20,3 +20,6 @@ freeze-deps:
 
 3-build-model:
 	@python src/3-build-model.py
+
+jupyter:
+	@cd src/notebooks && jupyter notebook
