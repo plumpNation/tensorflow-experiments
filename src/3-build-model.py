@@ -55,8 +55,14 @@ model.compile(optimizer='adam',
               metrics=['accuracy'])
 
 # train the model
+print()
+print('Fitting the model...')
+print()
 model.fit(x_train, y_train, epochs=5)
 
+print()
+print('Evaluating the model...')
+print()
 # check the model's performance on the training dataset
 model.evaluate(x_test,  y_test, verbose=2)
 
