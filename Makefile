@@ -22,6 +22,7 @@ freeze-deps:
 	@python src/3-build-model.py
 
 4-text-classification:
+	@echo "https://www.tensorflow.org/tutorials/keras/text_classification"
 	@python src/4-text-classification.py
 
 jupyter:
