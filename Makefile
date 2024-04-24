@@ -2,11 +2,11 @@ install:
 	@pip install -r ./requirements.txt
 
 venv-create:
-	@python -m venv .
+	@python -m venv .venv
 
 venv-use:
 	@echo "You need to run:"
-	@echo "source bin/activate"
+	@echo "source .venv/bin/activate"
 
 freeze-deps:
 	@pip freeze > requirements.txt
@@ -20,6 +20,9 @@ freeze-deps:
 
 3-build-model:
 	@python src/3-build-model.py
+
+4-text-classification:
+	@python src/4-text-classification.py
 
 jupyter:
 	@cd src/notebooks && jupyter notebook
